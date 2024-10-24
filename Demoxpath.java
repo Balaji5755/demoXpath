@@ -14,11 +14,11 @@ public class Demoxpath {
 		
 		
 		d.get("https://www.facebook.com/");
-		/*
+		
 		d.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("balajiyadhev@gmail.com");
 		d.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Sunny");
 		d.findElement(By.xpath("//*[@id=\"u_0_5_E/\"]")).click();
-		*/
+		
 		
 		d.findElement(By.xpath("//a[@data-testid='royal_login_button]")).click();
 		d.close();
