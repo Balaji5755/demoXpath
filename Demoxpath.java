@@ -21,7 +21,7 @@ public class Demoxpath {
 		*/
 		
 		d.findElement(By.xpath("//a[@data-testid='royal_login_button]")).click();
-		
+		d.close();
 		
 		
 		
